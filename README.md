@@ -1,5 +1,3 @@
-# readme_md
-
 # Burrito Optimization Game - Automated Solver
 
 An automated optimization script using **Python** and **Gurobi Optimizer** to solve the daily challenges of the Gurobi Burrito Game. This project formulates the truck placement and customer assignment problem as a Mixed-Integer Linear Program (MILP) to maximize net profit.
