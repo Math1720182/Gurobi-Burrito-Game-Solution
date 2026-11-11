@@ -60,25 +60,23 @@ $$
 
 1. **Single truck assignment per building:** Each building’s customers can be served by at most one truck.
     
-    $$
-    \sum_{t \in T} y_{bt} \le 1 \quad \forall b \in B
-    $$
+$$
+\sum_{t \in T} y_{bt} \le 1 \quad \forall b \in B
+$$
     
 2. **Truck presence requirement:** Customers can only go to a parking spot if a truck is actually parked there.
     
-    $$
-    y_{bt} \le x_t \quad \forall b \in B, \, \forall t \in T
-    $$
+$$
+y_{bt} \le x_t \quad \forall b \in B, \, \forall t \in T
+$$
     
 3. **Binary variables:**
     
-    $$
-    x_t \in \{0, 1\} \quad \forall t \in T
-    $$
+$$
+x_t \in \{0, 1\} \quad \forall t \in T
+$$
     
-    $$
-    y_{bt} \in \{0, 1\} \quad \forall b \in B, \, \forall t \in T
-    $$
+$$
+y_{bt} \in \{0, 1\} \quad \forall b \in B, \, \forall t \in T
+$$
     
-
----
