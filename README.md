@@ -15,7 +15,7 @@ An automated optimization script using **Python** and **Gurobi Optimizer** to so
 
 ## Prerequisites
 
-Make sure you have Python installed along with the required libraries:
+Make sure you have Python and Jupyter Notebook installed along with the required libraries:
 
 ```bash
 pip install pandas gurobipy
@@ -27,15 +27,16 @@ pip install pandas gurobipy
 
 ## Usage
 
-1. Place your CSV data files in the same directory as the script (or ensure your working path matches the expected naming convention: `roundX-dayY_...`).
-2. Update the `round_number` and `day_number` variables at the top of the script according to the challenge you want to solve:
+1. Download the CSV data files directly from the game by clicking the "download files" button.
+2. Place your CSV data files in the same directory as the script (or ensure your working path matches the expected naming convention: `roundX-dayY_...`).
+3. Update the `round_number` and `day_number` variables at the top of the script according to the challenge you want to solve:
     
     ```python
     round_number = 1
     day_number = 1
     ```
     
-3. Run the script via Jupyter Notebook:
+4. Run the script via Jupyter Notebook:
     
     ```bash
     Burrito Game Solution.ipynb
